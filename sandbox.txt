@@ -4,3 +4,4 @@ mlflow run . -P steps=download
 mlflow run src/eda
 mlflow run . -P steps=basic_cleaning
 mlflow run . -P steps="data_check"
+mlflow run . -P steps="data_split"
