@@ -1,3 +1,5 @@
 mlflow run src/basic_cleaning -P input_artifact="test" -P output_artifact="test" -P output_type="test" -P output_description="test" -P min_price=0 -P max_price=100
 
+mlflow run . -P steps=download
+mlflow run src/eda
 mlflow run . -P steps=basic_cleaning

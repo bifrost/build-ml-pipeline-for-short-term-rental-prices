@@ -29,7 +29,7 @@ def go(args):
     artifact = run.use_artifact(args.input_artifact)
     artifact_local_path = artifact.file()
 
-    df = pd.read_parquet(artifact_local_path)
+    df = pd.read_csv(artifact_local_path)
 
     # Drop outliers
     idx = df['price'].between(args.min_price, args.max_price)
