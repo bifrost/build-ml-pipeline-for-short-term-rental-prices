@@ -15,4 +15,5 @@ mlflow run https://github.com/bifrost/build-ml-pipeline-for-short-term-rental-pr
              -v 1.0.1 \
              -P hydra_options="etl.sample='sample2.csv'"
 
-conda install --channel=conda-forge scikit-learn=0.24.1
+Link to W&B
+https://wandb.ai/team-bifrost/nyc_airbnb/overview?workspace=user-dan-bifrost
